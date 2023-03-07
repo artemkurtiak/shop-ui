@@ -1,0 +1,27 @@
+{
+  "singleQuote": true,
+  "jsxSingleQuote": true,
+  "bracketSpacing": true,
+  "importOrderSeparation": true,
+  "importOrderSortSpecifiers": true,
+  "printWidth": 100,
+  "trailingComma": "all",
+  "importOrder": [
+    "^(.*)next(.*)$",
+    "<THIRD_PARTY_MODULES>",
+    "^(.*)page(.*)$",
+    "^(.*)app(.*)$",
+    "^(.*)layout(.*)$",
+    "^(.*)component(.*)$",
+    "^(.*)store(.*)$",
+    "^(.*)api(.*)$",
+    "^(.*)validation(.*)$",
+    "^(.*)styled(.*)$",
+    "^(.*)helper(.*)$",
+    "^(.*)constant(.*)$",
+    "^(.*)asset(.*)$",
+    "^(.*)type|interface(.*)$",
+    "^./[^s]",
+    "^[./]"
+  ]
+}
