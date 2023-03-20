@@ -7,12 +7,14 @@
   "printWidth": 100,
   "trailingComma": "all",
   "importOrder": [
-    "^(.*)next(.*)$",
+    "^next|^react$",
+    "styled-components|redux|react-redux",
     "<THIRD_PARTY_MODULES>",
     "^(.*)page(.*)$",
     "^(.*)app(.*)$",
     "^(.*)layout(.*)$",
     "^(.*)component(.*)$",
+    "^(.*)variables(.*)$",
     "^(.*)store(.*)$",
     "^(.*)api(.*)$",
     "^(.*)validation(.*)$",
@@ -20,8 +22,6 @@
     "^(.*)helper(.*)$",
     "^(.*)constant(.*)$",
     "^(.*)asset(.*)$",
-    "^(.*)type|interface(.*)$",
-    "^./[^s]",
-    "^[./]"
+    "^(.*)type|interface(.*)$"
   ]
 }
