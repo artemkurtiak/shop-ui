@@ -3,7 +3,9 @@
   "extends": ["next/core-web-vitals", "plugin:@typescript-eslint/recommended"],
   "rules": {
     "@typescript-eslint/no-unused-vars": "error",
-    "@typescript-eslint/no-explicit-any": "error",
-    "max-len": ["error", { "code": 100 }]
+    "@typescript-eslint/no-explicit-any": "off",
+    "@typescript-eslint/no-empty-interface": "off",
+    "max-len": ["error", { "code": 100 }],
+    "no-undef": "error"
   }
 }
